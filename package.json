@@ -1,0 +1,24 @@
+{
+  "name": "washeng-pppay",
+  "version": "1.0.4",
+  "description": "",
+  "author": "lzzhy <liting513@aliyun.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "keywords": [
+    "washeng",
+    "pppay"
+  ],
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": " rm -rf lib"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}

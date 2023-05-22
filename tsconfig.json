@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "es5",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "skipLibCheck": true,
+    "lib": [
+      "DOM",
+      "ESNext",
+    ],
+  },
+  "include": ["./src"],
+  "exclude": [
+    "node_modules",
+    "example"
+  ],
+}
