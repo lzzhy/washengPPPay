@@ -42,7 +42,7 @@
 //       // 确认动态js资源已加载完成
 //       script.onload = () => resolve(true)
 //       script.onerror = reject
-//     })
+//     })  
 //   }
 
 //   //初始化
